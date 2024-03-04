@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(232, 232, 232);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main{
+   width: 30%;
+    margin: auto;
+}
+.service{
+    padding-bottom: 15px;
+    font-size: 13px;
+    margin-top: -7px;
+    border-bottom: 1px solid rgb(191, 191, 191);
+}
+.p{
+    padding: 20px 0px 10px 0px;
+    color: red;
+}
+.heading,.d1,.d2{
+    background-color: white;
+    box-shadow: 0px 0px 1px rgb(150, 150, 150);
+    border-radius: 7px;
+}
+.color{
+    background-color: rebeccapurple;
+    padding: 4px 0px 6px 0px;
+    border-radius: 7px 7px 0px 0px;
+}
+h2,p,s,.l1,.p{
+    padding-left: 30px;
+}
+.l2{
+    padding-left: 30px;
+}
+.d1{
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 15px;
+}
+.d2{
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 15px;
+}
+.d1 span{
+    color: red;
+}
+.d1 input{
+    width: 60%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(191, 191, 191);
+}
+.d1 [type="date"]{
+    width: 30%;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+.btn [type="submit"]{
+    padding: 6px 25px 6px 25px;
+    font-size: 16px;
+    color: white;
+    background-color: rebeccapurple;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px rebeccapurple;
+}
+.d4 span{
+    color: rgb(111, 21, 200);
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer p{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-bottom: 15px;
+    color: rgb(56, 56, 56);;
+}
